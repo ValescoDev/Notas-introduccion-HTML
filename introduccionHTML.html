@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!--Etiqueta para la codficacion de mi pagina-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--Compatibilidad con navegadores obsoletos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--La escala en la vista de mi documento (no confundir con disenio responsivo)-->
+</head>
+<body>
+    <!-- Etiquetas de cabecera  -->
+<h1>Este es un H1</h1>
+<h2>Este es un H2</h12>
+<h3>Este es un H3</h3>
+<h4>Este es un H4</h4>
+<h5>Este es un H5</h5>
+<h6>Este es un H6</h6>
+
+<!-- Etiquetas para parrafos
+    em para italicas
+    u para subrayar
+    b para poner texto en negritas (palabras)
+    strong para poner texto en negritas (textos largos)ç
+    blockquote sirve para crear un bloque de texto como si fuera una cita
+    del para tachar texto
+--> 
+
+<!-- Atributos de las etiquetas
+
+
+Los atributos de las etiquetas son una serie de elementos que se pueden agregar a una etiqueta en si para dotarla de mas caracteristicas. (No todas las etiquetas tienen atributos). Estos atributos nos permiten agregar elementos como estilos, identificadores, eventos, etc.
+
+
+    - Class: Marcan un conjunto de elementos
+    - ID: Marcan un elemento en especifico
+    - Name: Marca el nombre de la etiqueta
+    
+
+-->
+
+<!-- Etiqueta de imagan (img) 
+
+La etiqueta img nos permite agregar una imagen en un documento web. Los formatos mas utilizados son: jpeg, png, gif, webp.
+
+Algunos de los atributos de la etiqueta img son:
+
+    - src (source): definir la ubicacion del archivo (interna o externa)
+    - width: definir el ancho de la imagen
+    - height define el alto de la imagen
+    - alt: define la descripcion de la imagen (para temas de SEO y accesibilidad)
+
+
+
+-->
+
+<P style="color: blue;">
+    <em>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est numquam eveniet commodi, rem, mollitia voluptatibus iste explicabo accusamus obcaecati quod, assumenda deleniti minus blanditiis fugiat quam reiciendis beatae dolore voluptate!
+    </em>
+</P>
+
+<P>
+    <u>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae itaque corporis placeat vero accusantium neque corrupti dicta. Id quaerat fuga sunt, odio, quisquam magnam autem unde deleniti corrupti impedit dolores.
+    </u>
+</P>
+
+<P>
+    <blockquote>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio aliquid quod temporibus similique, accusamus ea doloremque optio ducimus est molestiae corrupti minima odio excepturi reiciendis vitae reprehenderit odit rem unde?
+    </blockquote>
+</P>
+<!-- forma para agregar imagenes interna -->
+<img src="/Gibson.jpg" width="50%">
+
+<!-- forma para agregar imagenes externas -->
+<img src="https://m.media-amazon.com/images/I/815fudRHEwL._AC_SX679_.jpg" width="200px">
+
+<!-- podemos modificar el tamaño o la escala de la imagen, pero se modifica con respecto al lugar donde está contenedor -->
+
+<!-- Etiquetas divisorias y separadores
+
+
+    - br: nos sirve para dar una separacion (salto de linea)
+    - hr: para mostrar una linea que sirve como separador
+
+-->
+
+<!-- Etiquetas de enlace <a>
+
+
+    Permiten la navegacion por medio de hipervinculos (links) que realizan la conexion y referencias otros archivos o paginas web, ya sea dentro de la misma aplicacion o de forma externa.
+
+    atributos de la etiqueta
+
+    - href: sirve para definer la ubicacion del elemento a donde nos vamos a enlazar
+
+    - target: definir como se abre ese elemento
+        - misma ventana
+        - ventana adicional
+
+-->
+<!-- referencia a sitio externo -->
+<a href="https://www.google.com/" target="_blank">Este texto me lleva a Google</a>
+
+<br>
+
+<!-- referencia a sitio o elemento interno -->
+<a href="/Gibson.jpg" target="_blank" title="Descargar" download>descarga una bonita imagen de una Gibson Les Paul</a>
+
+<!-- 
+
+    src (source): incrustar un recurso (pegamos en el documento)
+    href (referencia): existe un enlace que nos comunica a ese elemento, pero que no necesariamente incrusta el elemento.
+
+ -->
+
+<!-- etiquetas para listas ordenadas y desordenadas -->
+
+<!-- Etiquetas para listas ordenadas y desordenadas 
+
+
+Sirven para crear listas ordenadas (numeros, letras, numeros romanos) y listas desordenadas (no siguen un orden y se usan bullets o figuritas para ordenar los elementos.)
+
+
+-->
+
+
+<h3>Listas ordenadas</h3>
+
+<ol type="I"><!-- Ordered List -->
+    <li><!-- List Item -->
+        Gibson
+    </li>
+
+    <li>
+        Epiphone
+    </li>
+
+    <li>
+        PRS
+    </li>
+
+    <li>
+        Fender
+    </li>
+
+    <li>
+        Ibanez
+    </li>
+
+</ol>
+
+<ul style="list-style-type: square;">
+    <li>Lavar los trastes</li>
+    <li>Dormir</li>
+    <li>Juegar FIFA</li>
+        <ol>
+            <li>Fut Champions</li>
+            <li>Modo Carrera</li>
+        </ol>
+</ul>
+
+</body>
+</html>
